@@ -23,5 +23,6 @@ jobs:
       with:
         # Output target
         RUSTTARGET: x86_64-unknown-linux-musl
+        TOOLCHAIN_VERSION: stable
         # List of archive types to publish the binaries with, default "zip", supports zip and all tar formats
         ARCHIVE_TYPES: tar.gz
