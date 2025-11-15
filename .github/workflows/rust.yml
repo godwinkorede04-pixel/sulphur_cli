@@ -1,0 +1,27 @@
+name: Rust
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Rust Release binary
+      # You may pin to the exact commit or the version.
+      # uses: rust-build/rust-build.action@6febf1b0ed6499a46610b58ef9d810398e75f3c2
+      uses: rust-build/rust-build.action@v1.4.5
+      with:
+        # Output target
+        RUSTTARGET: x86_64-unknown-linux-gnu
+        # List of archive types to publish the binaries with, default "zip", supports zip and all tar formats
+        ARCHIVE_TYPES: tar.gz
