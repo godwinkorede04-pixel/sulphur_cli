@@ -1,0 +1,13 @@
+[package]
+name = "sulphur_cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+console = "0.15.7"
+sulphur_core = { git = "https://github.com/demperor-music/sulphur-core" }
+anyhow = "1.0.98"
+dialoguer = { version = "0.11.0", features = ["fuzzy-select", "editor", "history"] }
+rand = "0.9.1"
+chrono = "0.4.41"
+tabled = "0.20.0"
