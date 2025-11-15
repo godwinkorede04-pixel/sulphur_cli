@@ -4,7 +4,7 @@
 * You are expected to know how to properly use the [Sulphur Core Library](https://github.com/demperor-music/sulphur-core) before proceeding to read this documentation.
 * You are expected have a Linux or MacOS running PC.
 
- CLI is a text-based user interface that allows you to interact with a computer's operating system or software by typing commands, rather than using a mouse to click on icons, windows, and menus. 
+CLI is a text-based user interface that allows you to interact with a computer's operating system or software by typing commands, rather than using a mouse to click on icons, windows, and menus. 
 
 The following table explains the instances in implementing sulphur CLI:
 
