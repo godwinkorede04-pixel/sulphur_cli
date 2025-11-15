@@ -20,6 +20,6 @@ The following are the steps in installing this program:
 nix profile install github:demperor-music/sulphur_cli
 ```
  
-##Conclusion
+## Conclusion
 
 Sulphur CLI allows you to effectively implement Sulphur Code Library by typing in commands specific to Linux and MacOS PCs.
